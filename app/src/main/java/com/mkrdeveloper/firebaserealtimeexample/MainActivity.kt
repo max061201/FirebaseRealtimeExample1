@@ -13,11 +13,19 @@ import com.mkrdeveloper.firebaserealtimeexample.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding : ActivityMainBinding
+    private lateinit var firebaceRef: DatabaseReference
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+//        firebaceRef = FirebaseDatabase.getInstance().getReference("test")
+//        binding.textView.setOnClickListener {
+//        firebaceRef.setValue("DATINGAPP TEST")
+//            .addOnCompleteListener {
+//                Toast.makeText(this,"Data Stores Suc",Toast.LENGTH_SHORT)
+//            }
+//        }
 
         val navController = findNavController(R.id.fragmentContainerView)
         val appBarConfiguration = AppBarConfiguration(setOf(R.id.homeFragment, R.id.addFragment))

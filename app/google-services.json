@@ -1,36 +1,46 @@
 {
   "project_info": {
-    "project_number": "456633850543",
-    "project_id": "fir-realtimeexample-b4d6b",
-    "storage_bucket": "fir-realtimeexample-b4d6b.appspot.com"
+    "project_number": "983619756593",
+    "firebase_url": "https://mi-datingapp-default-rtdb.firebaseio.com",
+    "project_id": "mi-datingapp",
+    "storage_bucket": "mi-datingapp.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:456633850543:android:50a3a5fb768daa3ee4d25a",
+        "mobilesdk_app_id": "1:983619756593:android:d8a57665af9268db91ab10",
         "android_client_info": {
-          "package_name": "com.mkrdeveloper.firebaserealtimeexample"
+          "package_name": "com.example.firebasetest"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "456633850543-beamlkb7jpn1bk24v36iglngajto0oir.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyA0TAPzckljyEtSvz3aOLndbgW5SnNDaSs"
+          "current_key": "AIzaSyCYEHtTIGjR1xUdFuDDCcf5qpB1yMIN_Bo"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "456633850543-beamlkb7jpn1bk24v36iglngajto0oir.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983619756593:android:55e132f6fce8507a91ab10",
+        "android_client_info": {
+          "package_name": "com.mkrdeveloper.firebaserealtimeexample"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYEHtTIGjR1xUdFuDDCcf5qpB1yMIN_Bo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
         }
       }
     }
